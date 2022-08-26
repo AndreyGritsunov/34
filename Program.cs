@@ -22,4 +22,4 @@ for(int i = 0; i < mass.Length; i++){
     if(mass[i] % 2 == 0) m++;
 }
 
-Console.Write("Ответ: " + Convert.ToInt32(m));
+Console.Write("Ответ: " + Convert.ToString(m));
